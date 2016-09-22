@@ -17,4 +17,4 @@
  */
 - (void)stopLoadingViewWithMessage:(NSString *)message;
 @end
-@end
+
