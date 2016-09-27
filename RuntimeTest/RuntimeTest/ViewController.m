@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <objc/runtime.h>
 #import "NSObject+WFADition.h"
+#import "UIButton+DoExchange.h"
 @interface ViewController ()<UIAlertViewDelegate>
 - (IBAction)AlertShow:(id)sender;
 
@@ -20,9 +21,21 @@ static void *WFMyAlerViewKey = "myAlertVeiwKey";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(50, 50, 60, 40);
+    [self.view addSubview:button];
+    [button setTitle:@"exchange" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+//    [button doExchange];
+    [button newAddTarget:self action:@selector(print) forControlEvents:UIControlEventTouchUpInside];
 }
 - (void)adition:(UIButton*)button {
     NSLog(@"click button");
+    
+    
+}
+- (void)print {
+    NSLog(@"aaaaaaaaaaa");
 }
 // AlertView
 - (void)askUserAQuestions {

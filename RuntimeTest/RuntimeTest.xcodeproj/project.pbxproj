@@ -20,6 +20,7 @@
 		C76024601D90DD7800AA42F6 /* NSObject+WFADition.m in Sources */ = {isa = PBXBuildFile; fileRef = C760245F1D90DD7800AA42F6 /* NSObject+WFADition.m */; };
 		C76024631D90DDFC00AA42F6 /* UIView+WFLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C76024621D90DDFC00AA42F6 /* UIView+WFLoadingView.m */; };
 		C76024671D90DE3400AA42F6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C76024661D90DE3400AA42F6 /* MBProgressHUD.m */; };
+		C7E797AB1D9AC0C7000B0665 /* UIButton+DoExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E797AA1D9AC0C7000B0665 /* UIButton+DoExchange.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		C76024621D90DDFC00AA42F6 /* UIView+WFLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WFLoadingView.m"; sourceTree = "<group>"; };
 		C76024651D90DE3400AA42F6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		C76024661D90DE3400AA42F6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C7E797A91D9AC0C7000B0665 /* UIButton+DoExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DoExchange.h"; sourceTree = "<group>"; };
+		C7E797AA1D9AC0C7000B0665 /* UIButton+DoExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DoExchange.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				C76024621D90DDFC00AA42F6 /* UIView+WFLoadingView.m */,
 				C760242B1D90DCDB00AA42F6 /* ViewController.h */,
 				C760242C1D90DCDB00AA42F6 /* ViewController.m */,
+				C7E797A91D9AC0C7000B0665 /* UIButton+DoExchange.h */,
+				C7E797AA1D9AC0C7000B0665 /* UIButton+DoExchange.m */,
 				C760242E1D90DCDB00AA42F6 /* Main.storyboard */,
 				C76024341D90DCDB00AA42F6 /* Assets.xcassets */,
 				C76024361D90DCDB00AA42F6 /* LaunchScreen.storyboard */,
@@ -306,6 +311,7 @@
 			files = (
 				C76024331D90DCDB00AA42F6 /* RuntimeTest.xcdatamodeld in Sources */,
 				C76024601D90DD7800AA42F6 /* NSObject+WFADition.m in Sources */,
+				C7E797AB1D9AC0C7000B0665 /* UIButton+DoExchange.m in Sources */,
 				C76024631D90DDFC00AA42F6 /* UIView+WFLoadingView.m in Sources */,
 				C760245D1D90DD2400AA42F6 /* RTObj.m in Sources */,
 				C760242D1D90DCDB00AA42F6 /* ViewController.m in Sources */,
